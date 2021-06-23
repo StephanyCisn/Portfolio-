@@ -1,0 +1,60 @@
+.text-centered {
+  text-align: center;
+}
+
+
+.dark-background {
+  background-color: #B79492;
+  padding:1em;
+  color: #000000;
+}
+.light-background {
+  background-color: #EAE1DF;
+  padding:1em;
+  color: #000000;
+  
+}
+/* will set font size for text in paragraphs */
+p {
+  font-size: 16px;
+}
+/* will set font size for text in lists */
+li {font-size: 16px;
+}
+
+div {
+  width: 250px;
+  margin-bottom: 5px;
+  border: 2px solid black;
+  height: auto;
+}
+/* this will set the font style for the text in paragraphs */
+p {font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* this will set the font style for the text in lists */
+li {font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+  width: 300px;
+  margin: auto;
+}
+
+a[href^="https"]::before {
+  content: "🔗 ";
+}
+/* this will add a graphic before the email link */
+a[href^="mailto"]::before {
+  content: "📧 ";
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* this will make the links hover color orange */
+a:hover {
+  color: orange;
+}
